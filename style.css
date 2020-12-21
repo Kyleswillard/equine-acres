@@ -1,0 +1,169 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Navigation & Brand */
+#brand {
+  color: grey;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2.25rem;
+
+  text-align: center;
+}
+
+.nav-link {
+  color: #494D5F !important;
+  margin: .5rem !important;
+}
+
+.nav-link:hover {
+  color:white !important;
+  background-color: grey !important;
+  border-radius: 5%;
+
+}
+
+/* Image Carousel */
+.carousel-item {
+  height: 80vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* About Section */
+#about {
+  height: 20rem;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.25rem ;
+  margin:  2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* services Section */
+#services {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.card {
+  margin: 2.5rem;
+  justify-content: center;
+  height: 30rem;
+  box-shadow: 3px 3px 1px grey;
+}
+
+.btn-primary {
+  background-color: grey;
+  margin: .25rem;
+}
+
+/* Contact Section */
+h4 {
+  color: grey;
+}
+hr {
+  border: 2px solid grey;
+
+}
+#contact {
+  margin: 5.25rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+#contact_info {
+  width: 610px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px grey;
+}
+#contact_info a {
+  text-decoration: none;
+  font-size: 1.25rem;
+
+}
+#social a {
+  font-size: 2.5rem;
+}
+ #map {
+   margin: 0 1.25rem 0 0;
+   padding: 0 .25rem 0 0;
+   border-radius: 5px;
+   box-shadow: 3px 3px 1px grey;
+
+ }
+ #map a {
+  display: none;
+ }
+
+
+ /* Testimonial Slider */
+.container {
+  height: 20rem;
+
+}
+.carousel-content {
+  padding: 10px 0px;
+}
+.carousel-content h3 span {
+  font-size: 17px;
+  font-weight: normal;
+  color: #000;
+  text-transform: uppercase;
+}
+
+#testimonial {
+  text-align: center;
+  margin-top: 10rem;
+  padding: 10px 0px;
+  color: grey;
+}
+#testimonial .carousel-control-prev,
+#testimonial .carousel-control-next {
+  font-size: 36px;
+  color: grey;
+}
+#testimonial h2 {
+  font-size: 40px;
+  font-style: italic;
+  border-bottom: 1px solid #7fbdff;
+  display: inline-block;
+}
+
+.bg-primary {
+  background-color: #fff !important;
+}
+
+ /* Footer */
+ footer {
+  text-align: center;
+}
+
+.fblogo {
+  font-size: 2rem;
+
+}
+
+.insta {
+  font-size: 2rem;
+  color: grey;
+}
+
+.brand {
+
+}
+
