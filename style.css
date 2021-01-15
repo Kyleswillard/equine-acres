@@ -25,8 +25,13 @@ body {
 }
 
 /* Image Carousel */
+#gallery {
+  height: auto;
+  width: 85%;
+  margin-bottom: 5rem;
+}
 .carousel-item {
-  height: 80vh;
+  height: auto;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -79,7 +84,7 @@ width: 100%;
 }
 
 /* Contact Section */
-h4 {
+#contact h4 {
   color: grey;
 }
 hr {
@@ -129,6 +134,26 @@ hr {
   font-size: 2rem;
 
 }
+#hours h3 {
+color: grey;
+}
 
+/* Responsive */
+@media (max-width: 575.98px) {
+  #map {
+    flex-direction: column;
+  }
+ }
 
+@media (max-width: 800px) {
+  #map-container{
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { ... }
+
+@media (max-width: 1399.98px) { ... }
 
