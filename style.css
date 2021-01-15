@@ -37,11 +37,11 @@ body {
 
 /* About Section */
 #about {
-  height: 20rem;
+
   font-size: 1.5rem;
-  text-align: center;
-  padding: 1.25rem ;
-  margin:  2.5rem 1.5rem;
+
+
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,19 +49,28 @@ body {
 
 /* services Section */
 #services {
-  width: 100%;
-  height: 30rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  padding: 1.25rem 1.5rem ;
+  /* border: 1px solid #d3d3d3; */
+
+}
+#services h2 {
+  text-align: center;
+  color: grey;
+}
+#services ul  {
+  margin: 0 auto;
+width: 100%;
 
 }
 
 .card {
-  margin: 2.5rem;
-  justify-content: center;
-  height: 30rem;
-  box-shadow: 3px 3px 1px grey;
+  margin: 0 auto;
+  /* justify-content: space-around; */
+  height: auto;
+  width: 200px;
+  /* box-shadow: 3px 3px 1px grey; */
+  display:flex;
+  flex-wrap: no-wrap;
 }
 
 .btn-primary {
@@ -77,19 +86,14 @@ hr {
   border: 2px solid grey;
 
 }
-#contact {
-  margin: 5.25rem 0;
-  display: flex;
-  justify-content: center;
-}
+
 
 
 #contact_info {
-  width: 610px;
+  width: 80%;
   display: flex;
-  flex-direction: column;
-  border-radius: 5px;
-  box-shadow: 3px 3px 1px grey;
+  flex-direction: row;
+
 }
 #contact_info a {
   text-decoration: none;
@@ -101,48 +105,11 @@ hr {
 }
  #map {
    margin: 0 1.25rem 0 0;
-   padding: 0 .25rem 0 0;
-   border-radius: 5px;
-   box-shadow: 3px 3px 1px grey;
+   padding: .25rem;
+   padding-right: 1rem;
+
 
  }
- #map a {
-  display: none;
- }
-
-
- /* Testimonial Slider */
-.container {
-  height: 20rem;
-
-}
-.carousel-content {
-  padding: 10px 0px;
-}
-.carousel-content h3 span {
-  font-size: 17px;
-  font-weight: normal;
-  color: #000;
-  text-transform: uppercase;
-}
-
-#testimonial {
-  text-align: center;
-  margin-top: 10rem;
-  padding: 10px 0px;
-  color: grey;
-}
-#testimonial .carousel-control-prev,
-#testimonial .carousel-control-next {
-  font-size: 36px;
-  color: grey;
-}
-#testimonial h2 {
-  font-size: 40px;
-  font-style: italic;
-  border-bottom: 1px solid #7fbdff;
-  display: inline-block;
-}
 
 .bg-primary {
   background-color: #fff !important;
@@ -160,10 +127,8 @@ hr {
 
 .insta {
   font-size: 2rem;
-  color: grey;
-}
-
-.brand {
 
 }
+
+
 
